@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WalletHubDemo]">
+  <test name="WalletHubReview(failed)">
+    <classes>
+      <class name="facebookmessage.FacebookMessage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- facebookmessage.FacebookMessage -->
+      <class name="wallethub.WalletHubReview">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- wallethub.WalletHubReview -->
+    </classes>
+  </test> <!-- WalletHubReview(failed) -->
+</suite> <!-- Failed suite [WalletHubDemo] -->
